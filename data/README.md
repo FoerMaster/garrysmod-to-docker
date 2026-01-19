@@ -1,0 +1,1 @@
+Files from the garrysmod/data folder and the sv.db file will appear here
