@@ -1,5 +1,8 @@
 # Gmod2Docker
 
+<img width="567" height="268" alt="Frame 49" src="https://github.com/user-attachments/assets/cdc82264-d5bf-4cc1-927b-c84eaee85e51" />
+
+
 Boilerplate for quick deployment of a Garry's Mod game server in a Docker container.
 
 ## 🚀 Quick Start
