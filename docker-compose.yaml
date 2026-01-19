@@ -1,0 +1,23 @@
+name: gserver
+services:
+  gmod:
+    image: ghcr.io/foermaster/garrysmod-docker-advanced:main
+    platform: linux/amd64
+    build:
+      context: .
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./src:/upd
+      - ./data/data:/gmodserv/garrysmod/data
+      - ./data/sv.db:/gmodserv/garrysmod/sv.db
+    network_mode: "host"
+    environment:
+      HOST_IP: ${HOST_IP:-127.0.0.1}
+      GMOD_PORT: "27015"
+      GMOD_TICKRATE: "32"
+      GMOD_MAXPLAYERS: "16"
+      GMOD_GAMEMODE: "sandbox"
+      GMOD_MAP: "gm_construct"
+      GMOD_INSECURE: "true"
+    hostname: gserver
