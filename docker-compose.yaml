@@ -1,7 +1,7 @@
 name: gserver
 services:
   gmod:
-    image: ghcr.io/foermaster/garrysmod-docker-advanced:main
+    image: ghcr.io/foermaster/gserver-docker-source:main
     platform: linux/amd64
     stdin_open: true
     tty: true
