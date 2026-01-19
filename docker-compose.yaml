@@ -3,8 +3,6 @@ services:
   gmod:
     image: ghcr.io/foermaster/garrysmod-docker-advanced:main
     platform: linux/amd64
-    build:
-      context: .
     stdin_open: true
     tty: true
     volumes:

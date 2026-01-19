@@ -1,0 +1,1 @@
+print("Thanks for using gserver! Visit https://github.com/FoerMaster/garrysmod-to-docker")
