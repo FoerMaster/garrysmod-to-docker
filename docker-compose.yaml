@@ -18,4 +18,5 @@ services:
       GMOD_GAMEMODE: "sandbox"
       GMOD_MAP: "gm_construct"
       GMOD_INSECURE: "true"
+      POLL_INTERVAL: "2"
     hostname: gserver
