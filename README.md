@@ -24,11 +24,7 @@ cd gmod2docker
 docker-compose up
 ```
 
-### 3. Connect to the server
-Open Garry's Mod and enter in the console (~):
-```
-connect localhost:27015
-```
+### Done 😁
 
 ## ⚙️ Configuration
 
