@@ -156,3 +156,5 @@ docker-compose up -d
 ---
 
 **Made with ❤️ for the Garry's Mod community**
+
+Donate TON: `UQCwkr7iZPGGA9TwCPeIE47taWvHoqA42DCa9B9SmxA9zsWj`
