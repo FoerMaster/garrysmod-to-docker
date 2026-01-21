@@ -33,6 +33,8 @@ docker-compose up
 Edit `docker-compose.yml` to configure your server:
 
 ```yaml
+image: ghcr.io/foermaster/gserver-docker-source:main
+#image: ghcr.io/foermaster/gserver-docker-source:dev # for using dev branch garry's mod server change `main` -> `dev`
 environment:
   GMOD_PORT: "27015"          # Server port
   GMOD_TICKRATE: "32"         # Tickrate (16, 22, 33, 66, 100)
