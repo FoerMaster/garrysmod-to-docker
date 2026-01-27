@@ -7,6 +7,7 @@ Boilerplate for quick deployment of a Garry's Mod game server in a Docker contai
 
 # Русский туториал
 Тут: https://blog.vyatk1n.ru/content/blog/2026/01/gmod2docker
+Русскоязычное соообщество разработчиков: https://gmod-dev.ru/
 
 
 # EN Tutorial
